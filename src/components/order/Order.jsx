@@ -12,7 +12,7 @@ const Order = ({ onAddInCart }) => {
         
         if (response) { return }
         setTimeout(() => { 
-            fetch('products.json').then(resp => resp.json()).then(data => { 
+            fetch('https://dummyjson.com/products').then(resp => resp.json()).then(data => { 
                 setData(new Response(data.products || [], null))
             }).catch((reason) => {
                 setData(new Response(null, reason))
