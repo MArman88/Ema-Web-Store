@@ -1,0 +1,18 @@
+.order-list-container { 
+    padding: 0 25%;
+    overflow: hidden;
+}
+
+.order-list-item-container {
+    padding: 10px;
+    background-color: rgba(244, 244, 244, 0.5);
+    border-radius: 10px;
+    overflow-y: auto;
+    max-height: 400px;
+    scrollbar-width: none;
+    
+}
+
+.order-list-item-container::-webkit-scrollbar {
+    width: 0;
+}

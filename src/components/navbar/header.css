@@ -1,0 +1,44 @@
+.nav-bar {
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    background: #1C2B35;
+    height: 72px;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.home {
+    margin: auto 0;
+}
+
+.home img { 
+    width: 120px;
+}
+
+.menu-bar { 
+    list-style-type: none;
+    margin: auto 0;
+}
+.menu-bar li { 
+    display: inline;
+    margin: 0 20px;
+}
+
+.menu-bar-links { 
+    text-decoration: none;
+    color: white;
+}
+
+.bubble { 
+    border-radius: 25%;
+    background-color: orange;
+    color: white;
+    padding: 2px 6px;
+}

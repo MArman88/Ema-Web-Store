@@ -1,0 +1,46 @@
+.product-container { 
+    padding: 12px 0;
+}
+
+.product-container2 { 
+    box-shadow: rgba(100, 100, 111, 0.2) -1px 1px 3px 3px;
+    border: solid 10px transparent;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.product-img-container { 
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(236, 236, 236, 0.377);
+    text-align: center;
+}
+
+.product-img-container img { 
+    max-width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    
+}
+
+.product-data { 
+    font-size: medium;
+    font-weight: 500;
+}
+
+.button-input { 
+    padding: 8px 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 236, 202);
+    color: orange;
+    border: solid 0;
+    
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.button-input:hover {
+    background-color: orange;
+    color: white;
+    font-weight: 500;
+}

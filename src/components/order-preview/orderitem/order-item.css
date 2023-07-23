@@ -1,0 +1,18 @@
+.product-data { 
+    font-size: medium;
+    font-weight: 500;
+}
+
+.container { 
+    padding: 4px 0;
+}
+.order-item-box { 
+    padding: 4px 24px;
+    border-radius: 10px;    
+    box-shadow: rgba(0, 0, 0, 0.35) -0.5px 0.5px 2px 2px;
+    background-color: white;
+}
+
+.product-title {
+    margin: 0;
+}

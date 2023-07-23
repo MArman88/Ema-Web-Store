@@ -1,0 +1,13 @@
+.error-body { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+}
+
+.error-body h3 {
+    
+    font-size: 18px;
+    font-weight: 400 !important;
+}
